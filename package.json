@@ -1,0 +1,14 @@
+{
+  "name": "api-app-vendas",
+  "version": "1.0.0",
+  "description": "Api do sistema de vendas de ingressos.",
+  "main": "index.js",
+  "repository": "https://github.com/Guiradi/api-app-vendas.git",
+  "author": "Guilherme Ponsoni Ferreira",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "hapi": "^18.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
