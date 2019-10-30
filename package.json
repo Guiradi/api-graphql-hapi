@@ -6,9 +6,16 @@
   "repository": "https://github.com/Guiradi/api-app-vendas.git",
   "author": "Guilherme Ponsoni Ferreira",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "NODE_ENV=test nodemon index.js"
+  },
   "dependencies": {
+    "apollo-server-hapi": "^2.9.7",
     "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
     "hapi": "^18.1.0",
+    "mongoose": "^5.7.7",
     "nodemon": "^1.19.4"
   }
 }
